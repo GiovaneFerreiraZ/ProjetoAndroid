@@ -53,7 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/btnVoltar"
         android:layout_alignParentRight="true"
-        android:text="Pagar" />
+        android:text="IrPagar"
+        android:onClick="Pagar"/>
 
 
 
