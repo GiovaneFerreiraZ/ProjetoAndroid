@@ -18,35 +18,6 @@
         android:layout_above="@id/btnVoltar"
         android:onClick="VoltarTela"/>
 
-    <EditText
-        android:id="@+id/edtNomeComida"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="X-Bacon" />
-
-    <ImageView
-        android:id="@+id/imgComida"
-        android:layout_width="192dp"
-        android:layout_height="140dp"
-        app:srcCompat="@drawable/xbacon"
-        android:layout_below="@id/edtNomeComida"/>
-
-    <CheckedTextView
-        android:id="@+id/ValorComida"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/imgComida"
-        android:text="Valor: $15,00" />
-
-    <CheckedTextView
-        android:id="@+id/ValorTotal"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/ValorComida"
-        android:text="Total a Pagar: $15,00" />
-
     <Button
         android:id="@+id/btnPagar"
         android:layout_width="wrap_content"
@@ -56,6 +27,10 @@
         android:text="IrPagar"
         android:onClick="Pagar"/>
 
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/NomeComida"
+        android:layout_height="match_parent" />
 
 
 </RelativeLayout>
